@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Document</title>
+<style>
+.login{
+border: 3px solid yellow;
+max-width: max-content;
+padding: 20px 30px;
+margin: 10px auto;
+}
+input[type=button]{
+display: block;
+background-color: blanchedalmond;
+margin: 0 auto;
+}
+</style>
+</head>
+<body>
+<div class="login">
+<form >
+<label for="email"> Enter Your Email: </label>
+<input type="email" name="email" id="email" />
+<br/>
+<label for="password"> Enter Your Password: </label>
+<input type="password" name="password" id="password" />
+<a href="reset the password">forgot password?</a>
+<br/>
+<div class="gender-details-box">
+    <span class="gender-title">Gender</span>
+    <div class="gender-category">
+        <input type="radio"name="gender"id="Male">
+        <label for="Male">Male</label><br/>
+        <input type="radio"name="gender"id="female">
+        <label for="Female">Female</label><br/>
+        <input type="radio"name="gender"id="other">
+        <label for="other">Other</label>
+    </div>
+</div>
+<br/>
+<br/>
+<div class="education-details-box">
+    <span class="education-title">Level of education passed</span>
+    <div class="education levels you managed to attain ">
+        <input type="checkbox"name="Level of education passed"id="primary">
+        <label for="primary">Primary</label><br/>
+        <input type="checkbox"name="Level of education passed"id="Secondary">
+        <label for="secondary">secondary</label><br/>
+        <input type="checkbox"name="Level of education passed"id="university">
+        <label for="university">University</label><br/>
+        <input type="checkbox"name="Level of education passed"id="Tertiary">
+        <label for="Tertiary">Tertiary</label>
+    </div>
+</div>
+</form>
+<br/>
+<form>
+    <label for="Level of education passed">Level of education passed</label><br/>
+    <select id="Level of education pased"name="level of education passed"size="2">
+    <option value="primary">Primary</option>
+    <option value="Secondary">Secondary</option>
+    <option value="University">University</option>
+    <option value="Tertiary">Tertiary</option>
+</select>
+</form>
+<br/>
+<form>
+    <label for="Level of education passed">Level of education passed</label><br/>
+    <select id="Level of education pased"name="level of education passed">
+    <option value="primary">Primary</option>
+    <option value="Secondary">Secondary</option>
+    <option value="University">university</option>
+    <option value="Tertiary">Tertiary</option>
+</select>
+</form>
+<input type="button" value="LOGIN" />
+</div>
+</body>
+</html>
